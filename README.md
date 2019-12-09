@@ -98,8 +98,8 @@ Substituting `(n - k)` by `i` we can calculate this sum as:
 
 So memory complexity is `O(n^3)`. We can reduce that to `O(n)` if we stop tracking current path.
 
-For now I don't see any further optimisations.
-
+To reduce memory footprint we can clear paths that are no longer required (if we're calculated data for 5th row, we don't need data for 6th row anymore).
+We could also try to reverse this algorithm to go from top to bottom, then we don't have to keep whole triangle in memory. But this is out of the scope for now.
 
 ## Code quality comment
 
