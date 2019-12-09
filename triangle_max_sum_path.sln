@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{A40AA7F6-22F2-4E63-BB4C-8848306760DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{A40AA7F6-22F2-4E63-BB4C-8848306760DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{75034165-785F-4EB8-926C-FBFDE33CAB05}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		task_definition.pdf = task_definition.pdf
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleMaxSumPath", "TriangleMaxSumPath\TriangleMaxSumPath.csproj", "{E51B6D96-2F6A-4456-A788-D8D20C60727C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleMaxSumPath.Tests", "TriangleMaxSumPath.Tests\TriangleMaxSumPath.Tests.csproj", "{D689414E-22B5-4CEF-8223-C7978B5F5F58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,14 @@ Global
 		{A40AA7F6-22F2-4E63-BB4C-8848306760DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A40AA7F6-22F2-4E63-BB4C-8848306760DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A40AA7F6-22F2-4E63-BB4C-8848306760DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E51B6D96-2F6A-4456-A788-D8D20C60727C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E51B6D96-2F6A-4456-A788-D8D20C60727C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E51B6D96-2F6A-4456-A788-D8D20C60727C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E51B6D96-2F6A-4456-A788-D8D20C60727C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D689414E-22B5-4CEF-8223-C7978B5F5F58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D689414E-22B5-4CEF-8223-C7978B5F5F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D689414E-22B5-4CEF-8223-C7978B5F5F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D689414E-22B5-4CEF-8223-C7978B5F5F58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
